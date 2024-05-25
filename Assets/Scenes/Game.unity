@@ -3585,7 +3585,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5064,5 +5064,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 278021303}
   - {fileID: 1577039772}
-  - {fileID: 1871444334}
   - {fileID: 1388381923}
+  - {fileID: 1871444334}
