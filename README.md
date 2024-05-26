@@ -17,3 +17,8 @@
  <br>
  <h2>Oyunu Kazanmak</h2>
  <p>Oyunu kazanmak için yapılacak şey oldukça basit, verilen süre içinde eldeki sayıları yerleştirmek. Eğer zamanınız yetişmezse oyunu kaybedeceksiniz!</p>
+ <br>
+  <h2>Oynayış Videosu</h2>
+ 
+ <p>Oynayış videosu linktedir. Kazanınca ve kaybedince gelen ekranları göstermiş bulunmaktayım.</p>
+  https://youtu.be/RjI3D5TMx94
