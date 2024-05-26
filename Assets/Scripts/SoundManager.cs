@@ -5,43 +5,48 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] CanvasGroup youLostCanvasGroup;
-    [SerializeField] CanvasGroup gameOverCanvasGroup;
+    [SerializeField] AudioClip youLostClip; // You Lost AudioClip
 
-    private AudioSource backgroundAudioSource;
+    [SerializeField] CanvasGroup gameOverCanvasGroup;
+    [SerializeField] AudioClip gameOverClip; // Game Over AudioClip
+
+    [SerializeField] AudioClip backgroundClip; // Background AudioClip
+
+    private AudioSource audioSource;
     private bool isMuted;
 
     private void Awake()
-    { 
-        backgroundAudioSource = GetComponent<AudioSource>();
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Start()
+    {
+        PlaySound(backgroundClip); // Baþlangýçta arka plan müziðini çal
     }
 
     private void Update()
     {
-        if (youLostCanvasGroup.alpha > 0 || gameOverCanvasGroup.alpha > 0)
+        if (youLostCanvasGroup.alpha > 0)
         {
-            StopBackgroundSound();
+            PlaySound(youLostClip);
         }
-        else 
+        else if (gameOverCanvasGroup.alpha > 0)
         {
-            PlayBackgroundSound();
+            PlaySound(gameOverClip);
         }
-    }
-
-    private void PlayBackgroundSound()
-    {
-        if (isMuted && !backgroundAudioSource.isPlaying)
+        else
         {
-            isMuted = false;
-            backgroundAudioSource.Play();
+            PlaySound(backgroundClip);
         }
     }
 
-    private void StopBackgroundSound()
+    private void PlaySound(AudioClip clip)
     {
-        if (!isMuted && backgroundAudioSource.isPlaying)
+        if (audioSource.clip != clip)
         {
-            isMuted = true;
-            backgroundAudioSource.Stop();
+            audioSource.clip = clip;
+            audioSource.Play();
         }
     }
 }
