@@ -1,4 +1,4 @@
-# FinalOdevi
+# MATEMATİK PUZZLE
 <div style="text-align: center;">
   <h2>Projenin Amacı Nedir?</h2>
 </div>
