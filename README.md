@@ -2,7 +2,7 @@
 <div style="text-align: center;">
   <h2>Projenin Amacı Nedir?</h2>
 </div>
-<p> Bu proje 2023-2024 Oyun Programlama dersi için final proje ödevi olarak tasarlanmıştır. Oyunun amacı oynayan kişinin dikkat, hafıza ve hesaplama yeteğini ölçmektir. Bu çereve içinde oyuncunun çoklu işlemler karşısında geri sayan süreyle hızlı düşünüp harekete geçmesini dayalı 2D bir oyun tasarladım./p>
+<p> Bu proje 2023-2024 Oyun Programlama dersi için final proje ödevi olarak tasarlanmıştır. Oyunun amacı oynayan kişinin dikkat, hafıza ve hesaplama yeteğini ölçmektir. Bu çereve içinde oyuncunun çoklu işlemler karşısında geri sayan süreyle hızlı düşünüp harekete geçmesini dayalı 2D bir oyun tasarladım.</p>
 <br>
 <div style="overflow: auto;">
 <h2>Nasıl Oynanır?</h2>
