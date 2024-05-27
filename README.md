@@ -15,7 +15,7 @@
   <p> Bizden istenen hesaplama, dikkat ve hafıza ölçümleriydi.</p> 
 	<p>  Oyunumda hesaplama ana tema olarak ele alındı. Dikkat, soruların cevaplanmasında ya da yanlış cevapladığında sayının düşmesini takip ederek ölçüldü . Hafıza içinde oyuncuların ucu başı olmayan işlem kalıplarında rastgele sayıları deneyip bunları aklında tutarak diğer sayılara geçmesi ile ölçtüm. </p>
  <br>
- <h2>Oyunu Kazanmak</h2>
+ <h2>Oyunu Kazanmak İçin</h2>
  <p>Oyunu kazanmak için yapılacak şey oldukça basit, verilen süre içinde eldeki sayıları yerleştirmek. Eğer zamanınız yetişmezse oyunu kaybedeceksiniz!</p>
  <br>
   <h2>Oynayış Videosu</h2>
