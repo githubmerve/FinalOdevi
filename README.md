@@ -12,7 +12,7 @@
 	 <p>Yukarıda gördüğünüz resim oyunumun arayüzüne ait bir örnektir. Sağda bulunan sayıları belirlenen süre içinde solda görüğünüz boşluklara uygun olarak yerleştirmeleri gerekmektedir. </p> </div>
   <br>
   <h2>Ölçüm Nasıl Ayarlandı?</h2>
-  <p> Bizden istenen hesaplama, dikkat ve hafıza ölçümleri vardı.</p> 
+  <p> Bizden istenen hesaplama, dikkat ve hafıza ölçümleriydi.</p> 
 	<p>  Oyunumda hesaplama ana tema olarak ele alındı. Dikkat, soruların cevaplanmasında ya da yanlış cevapladığında sayının düşmesini takip ederek ölçüldü . Hafıza içinde oyuncuların ucu başı olmayan işlem kalıplarında rastgele sayıları deneyip bunları aklında tutarak diğer sayılara geçmesi ile ölçtüm. </p>
  <br>
  <h2>Oyunu Kazanmak</h2>
